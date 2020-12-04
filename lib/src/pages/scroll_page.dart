@@ -23,7 +23,7 @@ class ScrollPage extends StatelessWidget {
       children: <Widget>[
         _colorFondo(),
         _imgBackground(),
-        textContent(),
+        _textContent(),
       ],
     );
   }
@@ -48,7 +48,7 @@ class ScrollPage extends StatelessWidget {
     );
   }
 
-  Widget textContent() {
+  Widget _textContent() {
     final styleText = TextStyle(color: Colors.white, fontSize: 50);
     return SafeArea(
       child: Column(
