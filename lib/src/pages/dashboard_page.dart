@@ -85,9 +85,9 @@ class DashboardPage extends StatelessWidget {
         decoration: BoxDecoration(
           boxShadow: [
             BoxShadow(
-              blurRadius: 30,
+              blurRadius: 20,
               color: Color.fromRGBO(236, 98, 188, 1.0),
-              spreadRadius: 10,
+              spreadRadius: 2,
             ),
           ],
           borderRadius: BorderRadius.circular(80.0),
