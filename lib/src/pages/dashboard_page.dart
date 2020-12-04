@@ -34,27 +34,27 @@ class DashboardPage extends StatelessWidget {
     return BottomNavigationBar(
       backgroundColor: Color.fromRGBO(55, 57, 84, 1.0),
       selectedItemColor: Colors.pinkAccent,
-      unselectedItemColor: Color.fromRGBO(116, 117, 152, 1.0),
+      unselectedItemColor: Color.fromRGBO(116, 117, 152, 0.5),
       showSelectedLabels: false,
       showUnselectedLabels: false,
       iconSize: 30,
       items: [
         BottomNavigationBarItem(
-          label: '',
+          label: 'Calendar',
           icon: Icon(
             Icons.calendar_today,
           ),
         ),
         BottomNavigationBarItem(
-          label: '',
+          label: 'Graficas',
           icon: Icon(
             Icons.pie_chart_outline_outlined,
           ),
         ),
         BottomNavigationBarItem(
-          label: '',
+          label: 'Users',
           icon: Icon(
-            Icons.supervised_user_circle,
+            Icons.people,
           ),
         ),
       ],
@@ -194,7 +194,7 @@ class DashboardPage extends StatelessWidget {
             padding: EdgeInsets.all(30),
             decoration: BoxDecoration(
               color: Color.fromRGBO(62, 66, 106, 0.7),
-              borderRadius: BorderRadius.circular(20),
+              borderRadius: BorderRadius.circular(19),
             ),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -205,7 +205,7 @@ class DashboardPage extends StatelessWidget {
                   child: Icon(
                     icon,
                     color: Colors.white,
-                    size: 30,
+                    size: 35,
                   ),
                 ),
                 Text(
